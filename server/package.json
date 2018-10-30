@@ -1,11 +1,12 @@
 {
-  "name": "todolist_server",
+  "name": "enamel_server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "./node_modules/nodemon/bin/nodemon.js src/app.js"
+    "dev": "./node_modules/nodemon/bin/nodemon.js src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -18,9 +19,7 @@
     "moment": "^2.22.2",
     "mongoose": "^5.1.5",
     "nodemailer": "^4.6.7",
-    "nodemon": "^1.17.5"
-  },
-  "nodemonConfig": {
-    "ext": "js,json,graphql"
+    "nodemon": "^1.17.5",
+    "uuid": "3.3.0"
   }
 }
